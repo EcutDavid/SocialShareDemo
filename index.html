@@ -2,17 +2,15 @@
 <html>
   <head>
     <title>Share Demo: Deferred execution with language code</title>
-    <link rel="canonical" href="http://www.example.com" />
-  </head>
   <body>
-    <g:plus action="share"></g:plus>
-
     <script>
       window.___gcfg = {
         lang: 'en-US',
         parsetags: 'onload'
       };
     </script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <a href="https://plus.google.com/share?url={URL}" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+Click here share in google plus</a>
   </body>
 </html>
