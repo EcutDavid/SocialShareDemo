@@ -2,6 +2,17 @@
 <html>
   <head>
     <title>Share Demo: Deferred execution with language code</title>
+    <style media="screen">
+      body{
+        text-align: center;
+      }
+
+      a{
+        font-size: 2em;
+      }
+    </style>
+  </head>
+
   <body>
     <script>
       window.___gcfg = {
@@ -9,8 +20,10 @@
         parsetags: 'onload'
       };
     </script>
-    <a href="https://plus.google.com/share?url={URL}" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-Click here share in google plus</a>
+    <!-- Plz change www.newegg.com below to url want to share -->
+    <a href="https://plus.google.com/share?url={www.newegg.com}"
+      onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no, resizable=yes,scrollbars=yes,height=600,width=600'); return false;">
+      Click here share in google plus
+    </a>
   </body>
 </html>
