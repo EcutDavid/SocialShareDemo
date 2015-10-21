@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>Share Demo: Deferred execution with language code</title>
+    <!-- Plz change www.newegg.com below to url want to add 1 in g+ -->
+    <link rel="canonical" href="http://www.newegg.com/Product/Product.aspx?Item=9SIA6PB2B27838" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <style media="screen">
       body{
         text-align: center;
@@ -9,6 +12,7 @@
 
       a{
         font-size: 2em;
+        line-height: 1.6;
       }
     </style>
   </head>
@@ -16,14 +20,15 @@
   <body>
     <script>
       window.___gcfg = {
-        lang: 'en-US',
-        parsetags: 'onload'
+        lang: 'en-US'
       };
     </script>
     <!-- Plz change www.newegg.com below to url want to share -->
-    <a href="https://plus.google.com/share?url={www.newegg.com}"
+    <a href="https://plus.google.com/share?url={http://www.newegg.com/Product/Product.aspx?Item=9SIA6PB2B27838}"
       onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no, resizable=yes,scrollbars=yes,height=600,width=600'); return false;">
-      Click here share in google plus
+      Share in google plus,(without + 1)
     </a>
+    <br>
+    <div class="g-plusone" data-size="tall" ></div>
   </body>
 </html>
